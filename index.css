@@ -1,0 +1,386 @@
+.tour{
+    font-family: poppins, sans-serif;
+    color: orange;
+    font-weight: 700;
+}
+.native{
+    font-family: poppins, sans-serif;
+    color: #1a3c6e;;
+    font-weight: 700;
+}
+.navbar-nav{
+    margin-left: auto;
+}
+.nav-link{
+    color: #1a3c6e;
+   
+    font-family: poppins, sans-serif;
+    font-weight: 800;
+    width:fit-content;
+    padding: 10px 20px;
+    transition: all 0.1s ease-in-out;
+}
+.nav-link:hover{
+    background-color: #1a3c6e;
+    border-radius: 20px;
+    color: orange;
+}
+.btn{
+        background-color:orange;
+        color: white;
+    border-radius: 20px;
+    width: fit-content;
+    
+      padding: 7px 20px;  
+}
+.btn:hover{
+    color: #eff0f2;
+    background-color: #1a3c6e;
+}
+.welcome-banner-section{
+    background-image: url(tournative\ welcome\ banner.jpg);
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+}
+@media screen and (max-width: 768px) {
+    .welcome-banner-section {
+        background-image: url(tournative\ welcome\ banner\ mobile.jpg);
+    }
+    
+}
+.welcome-text{
+    color: #eff0f2;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: poppins, sans-serif;
+}
+.plan-text-heading{
+   color: #1a3c6e;
+      font-weight: 700;
+      font-size: 30px;
+      font-family: poppins, sans-serif;
+        
+}
+.plan-text-para{
+   color: #1a3c6e;
+        font-family: poppins, sans-serif;  
+}
+#choose-destination{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #1a3c6e;
+    color:orange;
+    font-family: poppins, sans-serif;
+       
+}
+.btn-details{
+        background-color:#1a3c6e;
+        color: white;
+    border-radius: 20px;
+    width: fit-content;
+    border: none;
+    
+      padding: 7px 20px; 
+      transition: all 0.1s ease-in-out; 
+}
+.btn-details:hover{
+    color: #eff0f2;
+    background-color: orange;
+}
+.btn-more{
+        background-color:#1a3c6e;
+        color: white;
+    border-radius: 20px;
+    width: fit-content;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+      padding: 7px 20px; 
+      transition: all 0.1s ease-in-out; 
+}
+.btn-more:hover{
+    color: #eff0f2;
+    background-color: orange;
+}
+
+/* Review Section Styles */
+.review-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.review-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+}
+
+.review-name {
+    color: #1a3c6e;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.star-rating {
+    color: orange;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.star-rating-large {
+    color: orange;
+    font-size: 32px;
+    letter-spacing: 3px;
+}
+
+.review-summary {
+    border: 2px solid #1a3c6e;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.review-summary .card-body {
+    padding: 2rem;
+}
+
+#review-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.review-card .card-text {
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+/* Partners Section Styles */
+#partners-section {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+.partner-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.partner-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+    border-color: orange;
+}
+
+.partner-logo {
+    width: 120px;
+    height: 60px;
+    object-fit: contain;
+    
+    transition: all 0.3s ease-in-out;
+}
+
+.partner-card:hover .partner-logo {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.partner-name {
+    color: #1a3c6e;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.partner-card .card-text {
+    font-family: 'Poppins', sans-serif;
+    color: #666;
+    font-size: 0.85rem;
+}
+
+.partnership-benefits {
+    border: 2px solid #1a3c6e;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+}
+
+.partnership-benefits .card-body {
+    padding: 2rem;
+}
+
+.benefit-item h6 {
+    color: #1a3c6e !important;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.benefit-item p {
+    color: #666;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 0;
+}
+.travel-agencies-logo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .partner-logo {
+        width: 100px;
+        height: 50px;
+    }
+    .mobile-screen-margin{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .review-summary .card-body {
+        padding: 1.5rem;
+    }
+    .partnership-benefits .card-body {
+        padding: 1.5rem;
+    }
+}
+.contact-form-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 15px;
+}
+
+.contact-info-card {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.contact-info-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-icon {
+  display: inline-block;
+  padding: 15px;
+  background-color: rgba(13, 110, 253, 0.1);
+  border-radius: 50%;
+}
+
+.social-media-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 15px;
+  background: orange;
+  color: white;
+}
+
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+  color: white;
+  text-decoration: none;
+}
+
+.social-link.facebook {
+  background: #1877f2;
+}
+
+.social-link.facebook:hover {
+  background: #166fe5;
+}
+
+.social-link.instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+
+.social-link.twitter {
+  background: #1da1f2;
+}
+
+.social-link.twitter:hover {
+  background: #1a91da;
+}
+
+.social-link.youtube {
+  background: #ff0000;
+}
+
+.social-link.youtube:hover {
+  background: #e60000;
+}
+
+.social-link.linkedin {
+  background: #0077b5;
+}
+
+.social-link.linkedin:hover {
+  background: #006ba1;
+}
+
+.social-link.whatsapp {
+  background: #25d366;
+}
+
+.social-link.whatsapp:hover {
+  background: #22c55e;
+}
+
+.newsletter-signup {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.map-card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.form-control:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+@media (max-width: 768px) {
+  .social-links {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .social-link {
+    width: 200px;
+    justify-content: center;
+  }
+}

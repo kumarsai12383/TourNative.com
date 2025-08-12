@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <style>
+      .card-img-top{
+        height: 200px;
+      }
+      
+    </style>
+    <title>TourNative</title>
+</head>
+<body>
+     <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="tournative logo.JPG"
+            width="50px"
+            height="50px"
+            alt=""
+          /><span class="tour">Tour</span><span class="native">Native</span>
+        </a>
+        <button class="btn sticky-bottom" onclick="window.location.href='index.html'">Back to Home</button>
+      </div>
+    </nav>
+    
+    <section id="destinations">
+      <div class="container">
+        <h2 class="text-center plan-text-heading mt-5 mb-4">Popular Destinations</h2>
+        <p class="text-center mb-5">Explore our top travel destinations</p>
+
+        <!-- International Spots -->
+        <h3 class="mt-5 mb-4 plan-text-heading text-center">International Spots</h3>
+        <div class="row m-5 mb-4">
+          <!-- All international cards START -->
+          <!-- Paris -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://hdqwalls.com/wallpapers/eiffel-tower-paris-beautiful-view-1s.jpg" class="card-img-top" alt="Paris" />
+              <div class="card-body">
+                <h5 class="card-title">Paris</h5>
+                <p class="card-text">
+                  The City of Light, known for its art, fashion, and culture.
+                </p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Rome -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://www.thoughtco.com/thmb/QaZwUWsh9UE_l-4vueCn93sS304=/2097x1430/filters:fill(auto,1)/the-roman-coliseum-in-the-early-morning-655490208-5abd1d0f119fa80037ef98b9.jpg" class="card-img-top" alt="Rome" />
+              <div class="card-body">
+                <h5 class="card-title">Rome</h5>
+                <p class="card-text">
+                  The eternal city, home to ancient ruins like the Colosseum.
+                </p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- New York -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://static01.nyt.com/images/2012/05/06/nyregion/06BIG_SPAN/BIG-superJumbo.jpg" class="card-img-top" alt="New York" />
+              <div class="card-body">
+                <h5 class="card-title">New York</h5>
+                <p class="card-text">
+                  The city that never sleeps, featuring the iconic Statue of Liberty.
+                </p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Machu Picchu -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://www.fodors.com/wp-content/uploads/2018/09/HERo_MachuPicchu101_Hero_4_MachuPicchu101_WhereCanIGetBestPhoto_dreamstime_xxl_110067560_2_1.jpg" class="card-img-top" alt="Machu Picchu" />
+              <div class="card-body">
+                <h5 class="card-title">Machu Picchu</h5>
+                <p class="card-text">
+                  An ancient Incan citadel set high in the Andes Mountains in Peru.
+                </p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Athens -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://www.tripsavvy.com/thmb/yiGGbw8HhPLYOZvep9P8vd194BU=/2132x1406/filters:fill(auto,1)/GettyImages-88786323-5a12e968da27150037d03973.jpg" class="card-img-top" alt="Athens" />
+              <div class="card-body">
+                <h5 class="card-title">Athens</h5>
+                <p class="card-text">
+                  The heart of Ancient Greece, a powerful civilization and empire.
+                </p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Taj Mahal -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://i0.wp.com/thepointsguy.com/wp-content/uploads/2019/06/GettyImages-936994634.jpg?fit=2097%2C1430px&ssl=1" class="card-img-top" alt="Taj Mahal" />
+              <div class="card-body">
+                <h5 class="card-title">Taj Mahal</h5>
+                <p class="card-text">
+                  An immense mausoleum of white marble, built in Agra.
+                </p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
+</svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Great Wall of China -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://cdn.britannica.com/54/122154-050-4DA0F697/Great-Wall-of-China.jpg" class="card-img-top" alt="Great Wall of China" />
+              <div class="card-body">
+                <h5 class="card-title">Great Wall of China</h5>
+                <p class="card-text">Ancient wall stretching across China, built for defense.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Colosseum -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://jooinn.com/images/colosseum-in-rome-3.jpg" class="card-img-top" alt="Colosseum" />
+              <div class="card-body">
+                <h5 class="card-title">Colosseum</h5>
+                <p class="card-text">Ancient Roman amphitheatre in the center of Rome, Italy.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Burj Khalifa -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://th.bing.com/th/id/R.d84e9e011b0471ba5a8a8f21efd76e7c?rik=97oqXn%2fY7UbRkw&riu=http%3a%2f%2fwww.e-architect.co.uk%2fimages%2fjpgs%2fdubai%2fburj_khalifa_a190110_4.jpg&ehk=LmS1%2fvVC0IqAiYeIvK0CfAxkCXWvq1n0VBhZW7rAtew%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Burj Khalifa" />
+              <div class="card-body">
+                <h5 class="card-title">Burj Khalifa</h5>
+                <p class="card-text">Tallest building in the world, located in Dubai, UAE.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Santorini -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://lp-cms-production.imgix.net/features/2016/04/Santorini-53c9e0dca77b.jpg?auto=format&fit=crop&q=40&sharp=10&vib=20&ixlib=react-8.6.4" class="card-img-top" alt="Santorini" />
+              <div class="card-body">
+                <h5 class="card-title">Santorini</h5>
+                <p class="card-text">Beautiful Greek island known for sunsets and white houses.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Maldives -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://www.adotrip.com/public/images/internationalarea/master_images/62f376ab6888a-Maldives_Attractions.jpg" class="card-img-top" alt="Maldives" />
+              <div class="card-body">
+                <h5 class="card-title">Maldives</h5>
+                <p class="card-text">Tropical paradise with crystal-clear waters and white sands.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Petra, Jordan -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://th.bing.com/th/id/R.a117015eb57b67a82cb55acb7cb0f05a?rik=l3vYaJ86U%2fyTpQ&riu=http%3a%2f%2fnomadflag.com%2fwp-content%2fuploads%2f2019%2f08%2fmonastery-of-petra-jordan-2.jpg&ehk=6SX6Ysnd%2f%2bG%2fkNmM2ajMXWK%2fTxvQaIxmb9rqN98RZqU%3d&risl=&pid=ImgRaw&r=0" class="card-img-top" alt="Petra" />
+              <div class="card-body">
+                <h5 class="card-title">Petra, Jordan</h5>
+                <p class="card-text">An ancient city carved into rose-red cliffs, one of the new seven wonders of the world.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Niagara Falls, Canada/USA -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://images.pexels.com/photos/306381/pexels-photo-306381.jpeg?cs=srgb&dl=city-water-clouds-306381.jpg&fm=jpg" class="card-img-top" alt="Niagara Falls" />
+              <div class="card-body">
+                <h5 class="card-title">Niagara Falls</h5>
+                <p class="card-text">A breathtaking set of massive waterfalls on the border of Canada and the USA.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Dubai, UAE -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.V11dJfdlKuiswMDMAn3i2gHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Dubai" />
+              <div class="card-body">
+                <h5 class="card-title">Dubai, UAE</h5>
+                <p class="card-text">Home to the iconic Burj Khalifa, luxury shopping, and desert adventures.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Kyoto, Japan -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://s.yimg.com/ny/api/res/1.2/jvkzkQLZ51wXmHswNTiktg--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-uploaded-images/2021-07/59a4bc60-f23c-11eb-bf75-c38993010fb7" class="card-img-top" alt="Kyoto" />
+              <div class="card-body">
+                <h5 class="card-title">Tokyo, Japan</h5>
+                <p class="card-text">Known for temples, cherry blossoms, and traditional tea houses.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Bali, Indonesia -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse3.mm.bing.net/th/id/OIP.IgjPUNoA0iZqk60pKZhI4wHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Bali" />
+              <div class="card-body">
+                <h5 class="card-title">Bali, Indonesia</h5>
+                <p class="card-text">Famous for beaches, temples, and tropical landscapes.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Sydney Opera House, Australia -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://i.pinimg.com/originals/0b/54/57/0b5457a50f154d3490e7338ea4c0dcac.jpg" class="card-img-top" alt="Sydney Opera House" />
+              <div class="card-body">
+                <h5 class="card-title">Sydney Opera House</h5>
+                <p class="card-text">An architectural icon and world-class performance venue.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Serengeti National Park, Tanzania -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://sncdn.com/db/id/1337720/go362938.jpg" class="card-img-top" alt="Serengeti National Park" />
+              <div class="card-body">
+                <h5 class="card-title">Serengeti National Park</h5>
+                <p class="card-text">Wildlife safaris with lions, elephants, and the Great Migration.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Banff National Park, Canada -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.fqdGg46YhCZhuHg2kSxlvAHaEO?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Banff National Park" />
+              <div class="card-body">
+                <h5 class="card-title">Banff National Park</h5>
+                <p class="card-text">Famous for turquoise lakes and snow-capped mountains.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- All international cards END -->
+        </div>
+
+        <!-- Indian Spots -->
+        <h3 class="mt-5 mb-4 plan-text-heading text-center">Indian Spots</h3>
+        <div class="row m-5 mb-4">
+          <!-- All Indian cards START -->
+          <!-- Jaipur -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse2.mm.bing.net/th/id/OIP.NGUiOBY88OycJIyBJGKP2wHaE8?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Jaipur" />
+              <div class="card-body">
+                <h5 class="card-title">Jaipur</h5>
+                <p class="card-text">The Pink City of India, known for palaces and forts.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Goa -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://media.cntraveller.in/wp-content/uploads/2016/10/arambol.jpg" class="card-img-top" alt="Goa" />
+              <div class="card-body">
+                <h5 class="card-title">Goa</h5>
+                <p class="card-text">Popular Indian coastal state with beautiful beaches and nightlife.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Kerala -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://wallpapercave.com/wp/wp2649841.jpg" class="card-img-top" alt="Kerala" />
+              <div class="card-body">
+                <h5 class="card-title">Kerala</h5>
+                <p class="card-text">Known as 'God's Own Country', famous for backwaters and greenery.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Varanasi -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://as2.ftcdn.net/v2/jpg/04/08/25/05/1000_F_408250543_MVaEVGeWxb4FiFy7mEGKj8nfYkwoAZON.jpg" class="card-img-top" alt="Varanasi" />
+              <div class="card-body">
+                <h5 class="card-title">Varanasi</h5>
+                <p class="card-text">Spiritual city on the banks of the Ganges, famous for ghats and temples.</p>
+                <button class="btn-details">View Details<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/></svg></button>
+              </div>
+            </div>
+          </div>
+          <!-- Jaipur, Rajasthan -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse4.mm.bing.net/th/id/OIP.Q6JdZxxC5uabjnNzQSae0QHaEK?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Jaipur" />
+              <div class="card-body">
+                <h5 class="card-title">Jaipur, Rajasthan</h5>
+                <p class="card-text">The Pink City, home to grand palaces and forts.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Kerala Backwaters -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://c1.wallpaperflare.com/preview/27/778/380/backwater-coconut-trees-coconut-kerala.jpg" class="card-img-top" alt="Kerala Backwaters" />
+              <div class="card-body">
+                <h5 class="card-title">Kerala Backwaters</h5>
+                <p class="card-text">Serene waterways explored via traditional houseboats.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Rishikesh, Uttarakhand -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://th.bing.com/th/id/R.f2257da2442701aba39349eb1128cc2a?rik=H%2fq3tvjE5DCHDA&riu=http%3a%2f%2frishikesh.net%2fwp-content%2fuploads%2f2019%2f11%2fbigstock-Rishikesh-India-Circa-April-329638714.jpg&ehk=Uptj5ZNmgYbgnXdTnXB21UeyOAYxRd7N2uJYsT4MWHM%3d&risl=1&pid=ImgRaw&r=0" class="card-img-top" alt="Rishikesh" />
+              <div class="card-body">
+                <h5 class="card-title">Rishikesh, Uttarakhand</h5>
+                <p class="card-text">Yoga capital of the world with river rafting adventures.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Leh-Ladakh -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://wallpaperaccess.com/full/1844101.jpg" class="card-img-top" alt="Leh-Ladakh" />
+              <div class="card-body">
+                <h5 class="card-title">Leh-Ladakh</h5>
+                <p class="card-text">High-altitude deserts and breathtaking Himalayan views.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Hampi, Karnataka -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse4.mm.bing.net/th/id/OIP.8QprvelFehLqRzL0QM3RlwHaE9?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Hampi" />
+              <div class="card-body">
+                <h5 class="card-title">Hampi, Karnataka</h5>
+                <p class="card-text">UNESCO-listed ruins of a once grand empire.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Darjeeling, West Bengal -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://wallpaperaccess.com/full/4136696.jpg" class="card-img-top" alt="Darjeeling" />
+              <div class="card-body">
+                <h5 class="card-title">Darjeeling, West Bengal</h5>
+                <p class="card-text">Tea gardens and spectacular Himalayan views.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Andaman & Nicobar Islands -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse3.mm.bing.net/th/id/OIP.w1u2wg9Nai98AsYUn86EhgHaE7?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Andaman & Nicobar Islands" />
+              <div class="card-body">
+                <h5 class="card-title">Andaman & Nicobar Islands</h5>
+                <p class="card-text">Tropical paradise with coral reefs and clear waters.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- Khajuraho Temples, Madhya Pradesh -->
+          <div class="col-12 col-md-4 mb-4 col-lg-3">
+            <div class="card">
+              <img src="https://tse4.mm.bing.net/th/id/OIP.0TBn_6hey421NBNczxcE9AHaFS?rs=1&pid=ImgDetMain&o=7&rm=3" class="card-img-top" alt="Khajuraho Temples" />
+              <div class="card-body">
+                <h5 class="card-title">Khajuraho Temples</h5>
+                <p class="card-text">Intricately carved temples with UNESCO recognition.</p>
+                <button class="btn-details">View Details</button>
+              </div>
+            </div>
+          </div>
+          <!-- All Indian cards END -->
+        </div>
+      </div>
+    </section>
+    
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+</body>
+</html>

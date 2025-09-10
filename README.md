@@ -19,7 +19,7 @@ Tournative is a responsive tourism website that helps travelers discover famous 
 
 | Desktop View | Mobile View |
 |--------------|-------------|
-| ![Desktop Screenshot]() | | ![Desktop Screenshot]()|
+| ![Desktop Screenshot]() | ![Desktop Screenshot]()|
 
 
 ---

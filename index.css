@@ -25,6 +25,16 @@
     border-radius: 20px;
     color: orange;
 }
+.brand-name-1{
+  color:#080909;
+  background-color: transparent;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.brand-name-1:hover{
+  color:#605f5f;
+  cursor: pointer;
+  background-color: transparent;
+}
 .btn{
         background-color:orange;
         color: white;
